@@ -207,7 +207,7 @@ window.addEventListener('load', function () {
         }).done(function(data){
             res = data.Results.output1.value.Values
             $.each(res , function(index, element){
-                alert("Result: " + element)
+                alert("вы пидор")
             });
         }).fail(function(){
             alert ("error");
